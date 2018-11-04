@@ -1,0 +1,28 @@
+name: Pillars
+version: 1.0
+author: rickasheye
+main: com.rickasheye.main.supercomputer
+
+permissions:
+    pillars.identify:
+        description: Identify if the plugin is working
+    pillars.changeBlock:
+        description: change the block the pillar produces
+    pillars.changeLength:
+        description: change the length of the pillar
+    pillars.enable:
+        description: choose whether to disable or enable the pillar plugin
+        
+commands:
+    pillars:
+        permission: pillars.identify
+        description: This is the testing command to see if the plugin works!
+    pillarBlock:
+        permission: pillars.changeBlock
+        description: This is the command to change the block floating above the players head!
+    pillarLength:
+        permission: pillars.changeLength
+        description: Change the length of the pillar
+    enablePillar:
+        permission: pillars.enable
+        description: Main command to whether enable or disable Pillars
